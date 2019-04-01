@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A20CD6D78470CD0737F110B /* Pods_Tagsy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ABA9900B5B6A0FB10273958 /* Pods_Tagsy.framework */; };
+		E8BFCE9F2252926000F7E9DB /* ImaggaRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BFCE9E2252926000F7E9DB /* ImaggaRouter.swift */; };
+		E8BFCEA12252943600F7E9DB /* ImaggaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BFCEA02252943600F7E9DB /* ImaggaAPI.swift */; };
+		E8BFCEA52252B38F00F7E9DB /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BFCEA42252B38F00F7E9DB /* TagCell.swift */; };
 		E8EC3CCC225277ED00979AA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC3CCB225277ED00979AA5 /* AppDelegate.swift */; };
-		E8EC3CCE225277ED00979AA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC3CCD225277ED00979AA5 /* ViewController.swift */; };
 		E8EC3CD1225277ED00979AA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8EC3CCF225277ED00979AA5 /* Main.storyboard */; };
 		E8EC3CD3225277EE00979AA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8EC3CD2225277EE00979AA5 /* Assets.xcassets */; };
 		E8EC3CD6225277EE00979AA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8EC3CD4225277EE00979AA5 /* LaunchScreen.storyboard */; };
+		E8EC3CDF22527AFB00979AA5 /* ImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC3CDE22527AFB00979AA5 /* ImageCollectionViewController.swift */; };
+		E8EC3CE122527C9E00979AA5 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC3CE022527C9E00979AA5 /* ImageDetailViewController.swift */; };
+		E8EC3CE422527FD200979AA5 /* UploadedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC3CE322527FD200979AA5 /* UploadedImage.swift */; };
+		E8EC3CE622527FE300979AA5 /* ImageColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC3CE522527FE300979AA5 /* ImageColor.swift */; };
+		E8EC3CE822528A8800979AA5 /* ImageLoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC3CE722528A8800979AA5 /* ImageLoaderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0ABA9900B5B6A0FB10273958 /* Pods_Tagsy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tagsy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC9E8F3505D9E73A89A2413 /* Pods-Tagsy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tagsy.debug.xcconfig"; path = "Target Support Files/Pods-Tagsy/Pods-Tagsy.debug.xcconfig"; sourceTree = "<group>"; };
+		E8BFCE9E2252926000F7E9DB /* ImaggaRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImaggaRouter.swift; sourceTree = "<group>"; };
+		E8BFCEA02252943600F7E9DB /* ImaggaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImaggaAPI.swift; sourceTree = "<group>"; };
+		E8BFCEA42252B38F00F7E9DB /* TagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
 		E8EC3CC8225277ED00979AA5 /* Tagsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tagsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EC3CCB225277ED00979AA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E8EC3CCD225277ED00979AA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8EC3CD0225277ED00979AA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8EC3CD2225277EE00979AA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8EC3CD5225277EE00979AA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8EC3CD7225277EE00979AA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8EC3CDE22527AFB00979AA5 /* ImageCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewController.swift; sourceTree = "<group>"; };
+		E8EC3CE022527C9E00979AA5 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		E8EC3CE322527FD200979AA5 /* UploadedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadedImage.swift; sourceTree = "<group>"; };
+		E8EC3CE522527FE300979AA5 /* ImageColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageColor.swift; sourceTree = "<group>"; };
+		E8EC3CE722528A8800979AA5 /* ImageLoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderViewController.swift; sourceTree = "<group>"; };
+		EC0DA0A81295935682181BD2 /* Pods-Tagsy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tagsy.release.xcconfig"; path = "Target Support Files/Pods-Tagsy/Pods-Tagsy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A20CD6D78470CD0737F110B /* Pods_Tagsy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		097E3FD91D2B62F8FB4623B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0ABA9900B5B6A0FB10273958 /* Pods_Tagsy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8BFCE9D2252923900F7E9DB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E8BFCE9E2252926000F7E9DB /* ImaggaRouter.swift */,
+				E8BFCEA02252943600F7E9DB /* ImaggaAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		E8EC3CBF225277ED00979AA5 = {
 			isa = PBXGroup;
 			children = (
+				E8BFCE9D2252923900F7E9DB /* Network */,
 				E8EC3CCA225277ED00979AA5 /* Tagsy */,
 				E8EC3CC9225277ED00979AA5 /* Products */,
+				EE954DB49218252CDBBEB8F5 /* Pods */,
+				097E3FD91D2B62F8FB4623B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +93,44 @@
 		E8EC3CCA225277ED00979AA5 /* Tagsy */ = {
 			isa = PBXGroup;
 			children = (
+				E8EC3CE222527F7E00979AA5 /* Model */,
+				E8EC3CDD225279C500979AA5 /* Controller */,
 				E8EC3CCB225277ED00979AA5 /* AppDelegate.swift */,
-				E8EC3CCD225277ED00979AA5 /* ViewController.swift */,
 				E8EC3CCF225277ED00979AA5 /* Main.storyboard */,
 				E8EC3CD2225277EE00979AA5 /* Assets.xcassets */,
 				E8EC3CD4225277EE00979AA5 /* LaunchScreen.storyboard */,
 				E8EC3CD7225277EE00979AA5 /* Info.plist */,
+				E8BFCEA42252B38F00F7E9DB /* TagCell.swift */,
 			);
 			path = Tagsy;
+			sourceTree = "<group>";
+		};
+		E8EC3CDD225279C500979AA5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8EC3CDE22527AFB00979AA5 /* ImageCollectionViewController.swift */,
+				E8EC3CE022527C9E00979AA5 /* ImageDetailViewController.swift */,
+				E8EC3CE722528A8800979AA5 /* ImageLoaderViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E8EC3CE222527F7E00979AA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8EC3CE322527FD200979AA5 /* UploadedImage.swift */,
+				E8EC3CE522527FE300979AA5 /* ImageColor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE954DB49218252CDBBEB8F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDC9E8F3505D9E73A89A2413 /* Pods-Tagsy.debug.xcconfig */,
+				EC0DA0A81295935682181BD2 /* Pods-Tagsy.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8EC3CDA225277EE00979AA5 /* Build configuration list for PBXNativeTarget "Tagsy" */;
 			buildPhases = (
+				B39694AC1096B30D50B92E2E /* [CP] Check Pods Manifest.lock */,
 				E8EC3CC4225277ED00979AA5 /* Sources */,
 				E8EC3CC5225277ED00979AA5 /* Frameworks */,
 				E8EC3CC6225277ED00979AA5 /* Resources */,
+				42DBA8E0374B5878A20E2642 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +201,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		42DBA8E0374B5878A20E2642 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tagsy/Pods-Tagsy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tagsy/Pods-Tagsy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B39694AC1096B30D50B92E2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tagsy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E8EC3CC4225277ED00979AA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8EC3CCE225277ED00979AA5 /* ViewController.swift in Sources */,
+				E8EC3CDF22527AFB00979AA5 /* ImageCollectionViewController.swift in Sources */,
+				E8EC3CE122527C9E00979AA5 /* ImageDetailViewController.swift in Sources */,
+				E8BFCEA12252943600F7E9DB /* ImaggaAPI.swift in Sources */,
 				E8EC3CCC225277ED00979AA5 /* AppDelegate.swift in Sources */,
+				E8EC3CE622527FE300979AA5 /* ImageColor.swift in Sources */,
+				E8BFCEA52252B38F00F7E9DB /* TagCell.swift in Sources */,
+				E8BFCE9F2252926000F7E9DB /* ImaggaRouter.swift in Sources */,
+				E8EC3CE422527FD200979AA5 /* UploadedImage.swift in Sources */,
+				E8EC3CE822528A8800979AA5 /* ImageLoaderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +407,7 @@
 		};
 		E8EC3CDB225277EE00979AA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDC9E8F3505D9E73A89A2413 /* Pods-Tagsy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +425,7 @@
 		};
 		E8EC3CDC225277EE00979AA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC0DA0A81295935682181BD2 /* Pods-Tagsy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
