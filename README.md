@@ -212,7 +212,7 @@ extension ImageCollectionViewController: UIImagePickerControllerDelegate, UINavi
 
 Try running your app. You should see the image picker when you tap the + button. If you select an image, you should see a blank view slide up.
 
-![](https://i.imgur.com/AuWSu9m.png =300x)
+<img src="https://i.imgur.com/AuWSu9m.png" =300x />
 
 <a name="7"></a>
 ## 7) Alamofire
