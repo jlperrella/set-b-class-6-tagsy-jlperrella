@@ -11,8 +11,8 @@ import Alamofire
 public enum ImaggaRouter: URLRequestConvertible {
   
   enum Constants {
-    static let baseURL = "https://api.imagga.com/v1"
-    static let authorizationToken = "Basic YWNjX2Y0NmRmYzJlNGM4MzZkNDoxZGNmNWY0M2E0YzY5ZTI4ZWQyNjEzNTkyNjc3YzFkOQ=="
+    static let baseURL = ""
+    static let authorizationToken = ""
   }
   
   case upload
